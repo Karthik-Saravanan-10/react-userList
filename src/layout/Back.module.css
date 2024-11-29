@@ -1,0 +1,23 @@
+header {
+  background-color: Tomato;
+  padding: 15px;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+}
+
+li {
+  padding-right: 50px;
+}
+
+.dataView {
+  display: flex;
+  gap: 20px;
+  margin: 20px 138px;
+  flex-wrap: wrap;
+}

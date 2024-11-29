@@ -1,0 +1,68 @@
+.homebtn{
+    background-color: aliceblue;
+    border: 1px solid green;
+}
+
+.container{
+    background-color: azure;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 35px 20px 35px 64px;
+    margin: 0 25%;
+}
+
+input{
+    width: 90%;
+    padding: 5px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.field{
+    margin-bottom: 20px;
+    flex-direction: column;
+    display: flex;
+    text-align: left;
+
+}
+
+label{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.divBtn{
+    text-align: right;
+}
+
+.formBtn{
+    background-color: aqua;
+    color: white;
+    margin-right: 31px;
+}
+
+.btnRow{
+    display: flex;
+    gap: 10px;
+    margin:20px 37%;  
+
+}
+
+/* card */
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    width: 350px;
+    padding: 25px;
+    background-color: azure;
+}
+
+.deleteBtn{
+    background-color: teal;
+    color: white;
+}
+
+.crudBtn{
+    display: flex;
+    gap: 10px;
+    margin: 0 100px;
+}
