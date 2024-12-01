@@ -1,23 +1,23 @@
-.homebtn{
+.homebtn {
     background-color: aliceblue;
     border: 1px solid green;
 }
 
-.container{
+.container {
     background-color: azure;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 35px 20px 35px 64px;
     margin: 0 25%;
 }
 
-input{
+input {
     width: 90%;
     padding: 5px;
     height: 20px;
     margin-top: 2px;
 }
 
-.field{
+.field {
     margin-bottom: 20px;
     flex-direction: column;
     display: flex;
@@ -25,44 +25,55 @@ input{
 
 }
 
-label{
+label {
     margin-left: 5px;
     font-weight: bold;
 }
 
-.divBtn{
+.divBtn {
     text-align: right;
 }
 
-.formBtn{
+.formBtn {
     background-color: aqua;
     color: white;
     margin-right: 31px;
 }
 
-.btnRow{
+.btnRow {
     display: flex;
     gap: 10px;
-    margin:20px 37%;  
+    margin: 20px 37%;
 
 }
 
 /* card */
 
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 350px;
     padding: 25px;
     background-color: azure;
 }
 
-.deleteBtn{
+.deleteBtn {
     background-color: teal;
     color: white;
 }
 
-.crudBtn{
+.crudBtn {
     display: flex;
     gap: 10px;
     margin: 0 100px;
+}
+
+/* remove Alert */
+.removeAlert {
+    z-index: 1;
+    background-color: aqua;
+    position: absolute;
+    width: 24%;
+    height: 34%;
+    transform: translate(10%, 10%);
+    border-radius: 8px;
 }
